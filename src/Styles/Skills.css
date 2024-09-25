@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
     .skill-section{
-    position: relative;
+    /* position: relative; */
     }
     .skill-col {
         margin: 0.5rem;
@@ -52,9 +52,7 @@
         display: flex;
         flex-direction: column;
         row-gap: 10px;
-        align-items: center;
         justify-content: center;
-        /* margin: 0; */
     }
     .cards{
         display: flex;

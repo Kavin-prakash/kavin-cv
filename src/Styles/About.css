@@ -3,7 +3,7 @@
     height: 100%;
     padding: 2rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     font-weight:600;
@@ -30,6 +30,9 @@
    .about-image{
     height: 200px;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     /* margin-top: 80px; */
    }

@@ -20,7 +20,7 @@ export const Contact = () => {
                 <Row className='contact-section-rows'>
                     <Col xs={12} md={6}>
                         <Row>
-                            <h2>Contact<PhoneIcon/></h2>
+                            <h2>Contact</h2>
                         </Row>
                         <Row>
                             <h3>Feel free to reach out</h3>
