@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kavin-cv/static/css/main.6de6e7ec.css",
+    "main.js": "/kavin-cv/static/js/main.cb326a7a.js",
+    "static/media/kavin.jpg": "/kavin-cv/static/media/kavin.5114244934ba5776da4a.jpg",
+    "static/media/others.png": "/kavin-cv/static/media/others.d705e3517ed7c43351cc.png",
+    "static/media/Education.gif": "/kavin-cv/static/media/Education.ad3ab99a7d008f48f24b.gif",
+    "static/media/Education-rafiki.png": "/kavin-cv/static/media/Education-rafiki.65ffac7692ca99ffd5d8.png",
+    "static/media/Mobile Marketing-bro.png": "/kavin-cv/static/media/Mobile Marketing-bro.cef7f9041929c82f4418.png",
+    "static/media/To-Do-list.jpg": "/kavin-cv/static/media/To-Do-list.b08dd3c72a4ebe9a1b62.jpg",
+    "static/media/Back-End.jpg": "/kavin-cv/static/media/Back-End.9034dc2e0487e5a9af9b.jpg",
+    "static/media/Front-End.png": "/kavin-cv/static/media/Front-End.710b43501f88dc527506.png",
+    "index.html": "/kavin-cv/index.html",
+    "main.6de6e7ec.css.map": "/kavin-cv/static/css/main.6de6e7ec.css.map",
+    "main.cb326a7a.js.map": "/kavin-cv/static/js/main.cb326a7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de6e7ec.css",
+    "static/js/main.cb326a7a.js"
+  ]
+}
