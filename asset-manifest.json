@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kavin-cv/static/css/main.6de6e7ec.css",
-    "main.js": "/kavin-cv/static/js/main.cb326a7a.js",
+    "main.css": "/kavin-cv/static/css/main.2948000c.css",
+    "main.js": "/kavin-cv/static/js/main.8390685b.js",
     "static/media/kavin.jpg": "/kavin-cv/static/media/kavin.5114244934ba5776da4a.jpg",
     "static/media/others.png": "/kavin-cv/static/media/others.d705e3517ed7c43351cc.png",
     "static/media/Education.gif": "/kavin-cv/static/media/Education.ad3ab99a7d008f48f24b.gif",
@@ -11,11 +11,11 @@
     "static/media/Back-End.jpg": "/kavin-cv/static/media/Back-End.9034dc2e0487e5a9af9b.jpg",
     "static/media/Front-End.png": "/kavin-cv/static/media/Front-End.710b43501f88dc527506.png",
     "index.html": "/kavin-cv/index.html",
-    "main.6de6e7ec.css.map": "/kavin-cv/static/css/main.6de6e7ec.css.map",
-    "main.cb326a7a.js.map": "/kavin-cv/static/js/main.cb326a7a.js.map"
+    "main.2948000c.css.map": "/kavin-cv/static/css/main.2948000c.css.map",
+    "main.8390685b.js.map": "/kavin-cv/static/js/main.8390685b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de6e7ec.css",
-    "static/js/main.cb326a7a.js"
+    "static/css/main.2948000c.css",
+    "static/js/main.8390685b.js"
   ]
 }
