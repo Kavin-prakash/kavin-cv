@@ -1,0 +1,128 @@
+.home-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row-name {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.row-name.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.right-column {
+    border-radius: 25px;
+}
+
+.kavin-image {
+    height: 500px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+.haaaa {
+    color: black;
+}
+
+.animated-button {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+}
+
+.animated-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(244, 236, 236, 0.2);
+    transition: left 0.5s ease-in-out;
+}
+
+.animated-button:hover::before {
+    left: 100%;
+}
+
+.social-media-button {
+    background-color: rgb(235, 240, 246);
+    border: 5px solid rgb(58, 58, 154);
+    border-radius: 50%;
+}
+
+.social-buttons-css {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+}
+
+.say-hi-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@media (max-width: 768px) {
+    .row-name {
+        flex-direction: column-reverse;
+    }
+
+    .kavin-image {
+        height: 250px;
+        max-width: 200px;
+    }
+
+    .say-hi-button {
+        display: none;
+    }
+
+    .left-column-rows {
+        font-size: 13px;
+    }
+}

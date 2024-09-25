@@ -1,0 +1,12 @@
+
+@media (max-width: 768px) {
+    .top-scrool-arrow {
+        bottom: 10px;
+        right: 5px;
+        width: 35px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

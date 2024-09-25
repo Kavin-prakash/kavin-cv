@@ -1,0 +1,65 @@
+.skill-section {
+    height: auto;
+    padding: 2rem;
+    /* background-color: rgb(255, 255, 255); */
+    /* margin: 25px; */
+    /* border-radius: 15px; */
+    /* position: absolute; */
+    /* position: absolute; */
+
+    background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.934),rgb(72, 180, 201),rgb(244, 244, 244));
+
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    animation: zigzag 2s infinite;
+}
+
+.Skill-display-cards {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@keyframes zigzag {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .skill-section{
+    position: relative;
+    }
+    .skill-col {
+        margin: 0.5rem;
+    }
+    .Skill-display-cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        /* margin: 0; */
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}

@@ -1,0 +1,40 @@
+.about-section {
+    /* height: 100vh; */
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight:600;
+}   
+
+.about-image{
+    height: 100%;   
+    width: 100%;
+    max-height: 600px;
+    max-width: 600px;
+}
+.myself-content-row{
+    gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+   .about-section{
+    /* color: white; */
+    color: black;
+    margin: 0;
+    /* margin-bottom: 200px; */
+   }
+   .about-image{
+    height: 200px;
+    width: 200px;
+
+    /* margin-top: 80px; */
+   }
+   .myself-content-row{
+    font-size: 15px;
+
+   }
+}

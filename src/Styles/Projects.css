@@ -1,0 +1,23 @@
+.Project-section {
+    height: auto;
+    padding: 3rem;
+}
+
+.project-section-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+}
+
+.cards-project {
+    background-color: rgb(198, 232, 221);
+}
+
+
+@media (max-width:768px) {
+    .cards-project{
+        font-size: 16px;
+    }
+}

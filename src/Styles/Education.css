@@ -1,0 +1,39 @@
+.education-section {
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+}
+
+.eduation-image {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+
+.eduction-left-column {
+    font-size: 18px;
+    /* color: white; */
+}
+
+.eduction-left-column-rows {
+    display: flex;
+    padding: 15px;
+}
+
+@media (max-width :768px) {
+    .eduation-image {
+        height: 250px;
+        width: 250px;
+    }
+
+    .education-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .education-box{
+        font-size: 15px;
+    }
+}

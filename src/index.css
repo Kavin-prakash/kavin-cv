@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap'); */
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  /* font-family: "Playwrite DE Grund", cursive; */
+  font-family: "Playwrite DE Grund", cursive;
+
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: rgb(2, 0, 36); */
+  /* background: linear-gradient(90deg, rgb(45, 42, 104) 0%, rgba(72, 72, 158, 1) 35%, rgb(64, 189, 214) 100%); */
+  /* background-color: #0093E9;
+  background-image: linear-gradient(164deg, #0093E9 0%, #80D0C7 100%); */
+
+  /* background-color: #FFFFFF;
+  background-image: linear-gradient(360deg, #FFFFFF 0%, #6284FF 50%, #e76a6a 100%); */
+
+
+  /* background-image: linear-gradient(360deg,rgba(247, 251, 251, 0.934),rgb(72, 180, 201),rgba(55, 226, 249, 0.905)); */
+  background-image: linear-gradient(120deg, rgb(133, 245, 255), rgba(213, 249, 249, 0.884), rgb(231, 247, 251));
+
+
+
+
+  /* background-color: #0093E9;
+  background-image: linear-gradient(225deg, #0093E9 0%, #80D0C7 50%, #ddd0d0 100%); mail */
+
+  /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(72, 72, 158, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
